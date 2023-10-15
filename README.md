@@ -1,3 +1,3 @@
-## Link to the app
+## Phonebook app
 
 https://phonebook-e15h.onrender.com/
