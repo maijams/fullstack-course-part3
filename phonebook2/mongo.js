@@ -15,10 +15,10 @@ const person = new Person({
   number: "Number",
 })
 
-person.save().then(result => {
-  //console.log(`added ${name} number ${number} to phonebook`)
-  mongoose.connection.close()
-})
+// person.save().then(result => {
+//   //console.log(`added ${name} number ${number} to phonebook`)
+//   mongoose.connection.close()
+// })
 
 Person.find({}).then(result => {
   console.log("phonebook:")
